@@ -1,0 +1,12 @@
+name: adquisicion_sentinel
+dependencies:
+  - python=3.9
+  - conda
+  - conda:
+    - ipykernel 
+  - pip
+  - pip:
+    - gdown
+    - geemap
+    - pyshp
+    - PyCRS
